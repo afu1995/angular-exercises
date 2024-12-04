@@ -1,0 +1,36 @@
+h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .todo-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+
+  input[type='checkbox'] {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+
+  label {
+    font-size: 18px;
+    color: #333;
+  }
